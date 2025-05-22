@@ -13,21 +13,20 @@
 # print(t)
 
 # index of the rotated sorted array
-arr = list(map(int,input().split()))
-l = 0 
-r = len(arr) - 1
-while l <= r:
-    m = (l + r) // 2
-    print(m)
-    if arr[m] < arr[m-1]:
-        print(m)
-        break
-    elif arr[m] > arr[l]:
-        l = m + 1
-    else:
-        r = m - 1
-else:
-    print(0)
+# arr = list(map(int,input().split()))
+# l = 0 
+# r = len(arr) - 1
+# while l <= r:
+#     m = (l + r) // 2
+#     if arr[m] < arr[m-1]:
+#         print(m)
+#         break
+#     elif arr[m] > arr[0]:
+#         l = m + 1
+#     else:
+#         r = m - 1
+# else:
+#     print(0)
 
 # find all the peaks
 # arr = list(map(int,input().split()))
