@@ -32,3 +32,16 @@
 #         j += 1
 #     i += 1
 # print(c)
+
+# max no of meeting possible
+# start = list(map(int,input().split()))
+# end = list(map(int,input().split()))
+# l = [[start[i],end[i]] for i in range(len(start))] # creating in the tuple form
+# l.sort(key = lambda x: x[1]) # sorting with end
+# c = 0
+# prev = 0
+# for i,j in l:
+#     if prev <= i: # comparing start with the previous meet end
+#         c += 1 # possible meet
+#         prev = j # new meet end
+# print(c)
