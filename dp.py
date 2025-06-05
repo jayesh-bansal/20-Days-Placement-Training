@@ -27,14 +27,19 @@
 # print(dp[-1])
 
 # longest common subsequence
+# O(m + n)
+# s1 = input()
+# s2 = input()
+# d = {}
+# for i in s1:
+#     d[i] = d.get(i,0) + 1
+# k = ''
+# for i in s2:
+#     if i in d and d[i] > 0:
+#         k += i
+#         d[i] -= 1
+# print(k)
+
+# O(m * n)
 s1 = input()
 s2 = input()
-d = {}
-for i in s1:
-    d[i] = d.get(i,0) + 1
-k = ''
-for i in s2:
-    if i in d and d[i] > 0:
-        k += i
-        d[i] -= 1
-print(k)
